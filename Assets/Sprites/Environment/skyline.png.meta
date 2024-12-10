@@ -1,0 +1,259 @@
+fileFormatVersion: 2
+guid: 864dcc8725af840af947eada3ab77dc0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1951349072374358064
+    second: skyline_0
+  - first:
+      213: 3765158468768869418
+    second: skyline_1
+  - first:
+      213: -2706116321909908790
+    second: skyline_2
+  - first:
+      213: -3896952114611536806
+    second: skyline_3
+  - first:
+      213: 6262335435099308973
+    second: skyline_4
+  - first:
+      213: 7027204066826945240
+    second: skyline_5
+  - first:
+      213: -2852291485468785430
+    second: skyline_6
+  - first:
+      213: -1801015487544161874
+    second: skyline_7
+  - first:
+      213: -1686110324164711674
+    second: skyline_8
+  - first:
+      213: -5889138924825308159
+    second: skyline_9
+  - first:
+      213: -7673121733220153051
+    second: skyline_10
+  - first:
+      213: -6029020516190270292
+    second: skyline_11
+  - first:
+      213: 1803206524513947128
+    second: skyline_12
+  - first:
+      213: 1679967869587233318
+    second: skyline_13
+  - first:
+      213: -1144113052247995581
+    second: skyline_14
+  - first:
+      213: -6980687322965603271
+    second: skyline_15
+  - first:
+      213: -7143989255084569640
+    second: skyline_16
+  - first:
+      213: -6402649083248885405
+    second: skyline_17
+  - first:
+      213: -2492799364083530542
+    second: skyline_18
+  - first:
+      213: 697721612504255112
+    second: skyline_19
+  - first:
+      213: 1446466357071214080
+    second: skyline_20
+  - first:
+      213: 7311166143638270728
+    second: skyline_21
+  - first:
+      213: -4612276745327283523
+    second: skyline_22
+  - first:
+      213: 2221089252074108878
+    second: skyline_23
+  - first:
+      213: 713540751101839604
+    second: skyline_24
+  - first:
+      213: 3063280052649698720
+    second: skyline_25
+  - first:
+      213: 5219842305253939055
+    second: skyline_26
+  - first:
+      213: 6859890244109177379
+    second: skyline_27
+  - first:
+      213: 2351977434029148918
+    second: skyline_28
+  - first:
+      213: -3200917107754567737
+    second: skyline_29
+  - first:
+      213: 8689290891678843207
+    second: skyline_30
+  - first:
+      213: 3486758049283884630
+    second: skyline_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: skyline_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 164
+        width: 1008
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 23, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df965c7b5a6be4e0800000000000000
+      internalID: -1951349072374358064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skyline_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 1008
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ca50ebda7804430800000000000000
+      internalID: 3765158468768869418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9c36bfafe14284079b77b3c66e883a42
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      skyline_0: -1951349072374358064
+      skyline_1: 3765158468768869418
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
