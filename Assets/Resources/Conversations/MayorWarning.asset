@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b935cd5e3e54c9b943fde4003236be, type: 3}
+  m_Name: MayorWarning
+  m_EditorClassIdentifier: 
+  ConversationLines:
+  - SpeakingCharacterName: Mayor
+    ConversationText: Where do you think you are going?
+    DisplayPic: {fileID: -4560653273730066235, guid: 447225a3c72b04c62967d371821f74ae, type: 3}
+  - SpeakingCharacterName: Player
+    ConversationText: I was wondering what was over here.
+    DisplayPic: {fileID: 8575162299666230460, guid: c8852d1cce37c45a5aada750d632b69d, type: 3}
+  - SpeakingCharacterName: Mayor
+    ConversationText: Well, you can't go this way!
+    DisplayPic: {fileID: -4560653273730066235, guid: 447225a3c72b04c62967d371821f74ae, type: 3}
+  - SpeakingCharacterName: Mayor
+    ConversationText: There is a lot of construction going on on that side of town
+    DisplayPic: {fileID: -4560653273730066235, guid: 447225a3c72b04c62967d371821f74ae, type: 3}
+  - SpeakingCharacterName: Mayor
+    ConversationText: and there is a lot of monsters.
+    DisplayPic: {fileID: -4560653273730066235, guid: 447225a3c72b04c62967d371821f74ae, type: 3}
+  - SpeakingCharacterName: Mayor
+    ConversationText: But we don't talk about that...
+    DisplayPic: {fileID: -4560653273730066235, guid: 447225a3c72b04c62967d371821f74ae, type: 3}
+  - SpeakingCharacterName: Mayor
+    ConversationText: Forget i said anything
+    DisplayPic: {fileID: -4560653273730066235, guid: 447225a3c72b04c62967d371821f74ae, type: 3}
