@@ -4,7 +4,7 @@ public class MessagingClientBroadcast : MonoBehaviour {
         MessagingManager.Instance.Broadcast();
     }
 
-    void OnTriggerEnter2D(Collider2D col) {
-        MessagingManager.Instance.Broadcast();
-    }
+    // void OnTriggerEnter2D(Collider2D col) {
+    //     MessagingManager.Instance.Broadcast();
+    // }
 }
