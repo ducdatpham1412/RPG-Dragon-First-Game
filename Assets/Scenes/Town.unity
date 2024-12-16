@@ -210,6 +210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7963397dc84634f7aa060c8eb28ef3cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startingPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &154668542
 GameObject:
   m_ObjectHideFlags: 0
@@ -1555,6 +1556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7963397dc84634f7aa060c8eb28ef3cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startingPosition: {x: 8.21, y: -1.61, z: 0}
 --- !u!4 &1112935754 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2705912787761479839, guid: d65d25a72032046b291f875b4d918657, type: 3}
@@ -2769,11 +2771,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2705912787761479839, guid: d65d25a72032046b291f875b4d918657, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.19
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 2705912787761479839, guid: d65d25a72032046b291f875b4d918657, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.61
+      value: -0.64
       objectReference: {fileID: 0}
     - target: {fileID: 2705912787761479839, guid: d65d25a72032046b291f875b4d918657, type: 3}
       propertyPath: m_LocalPosition.z
