@@ -1,10 +1,8 @@
 using UnityEngine;
-using System.Collections;
 using System;
 
 
-public class Entity : MonoBehaviour
-{
+public class Entity : ScriptableObject {
     public string characterName;
     public int age;
     string faction;
@@ -21,13 +19,11 @@ public class Entity : MonoBehaviour
     public string weapon;
     public Vector2 position;
 
-    public void TakeDamage(int Amount)
-    {
+    public void TakeDamage(int Amount) {
         health = health - Math.Clamp((Amount - armor), 0, int.MaxValue);
     }
 
-    public void Attack(Entity entity)
-    {
+    public void Attack(Entity entity) {
         entity.TakeDamage(strength);
     }
 }

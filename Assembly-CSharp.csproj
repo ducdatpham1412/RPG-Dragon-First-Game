@@ -71,17 +71,21 @@
     <Compile Include="Assets/Scripts/Classes/Conversation.cs" />
     <Compile Include="Assets/Scripts/Classes/ConversationComponent.cs" />
     <Compile Include="Assets/Scripts/ScriptingObjects.cs" />
+    <Compile Include="Assets/Scripts/BattleManager.cs" />
     <Compile Include="Assets/Scripts/Entity.cs" />
     <Compile Include="Assets/Scripts/Messaging/MessagingClientBroadcast.cs" />
     <Compile Include="Assets/Scripts/Navigation/NavigationPrompt.cs" />
     <Compile Include="Assets/Scripts/Classes/ConversationEntry.cs" />
     <Compile Include="Assets/Scripts/Player.cs" />
+    <Compile Include="Assets/Scripts/RandomBattle.cs" />
     <Compile Include="Assets/Scripts/CharacterMovement.cs" />
     <Compile Include="Assets/Scripts/ConversationManager.cs" />
     <Compile Include="Assets/Scripts/Messaging/MessagingManager.cs" />
+    <Compile Include="Assets/Scripts/MapPosition.cs" />
     <Compile Include="Assets/Scripts/FollowCamera.cs" />
     <Compile Include="Assets/Scripts/Messaging/MessagingClientReceiver.cs" />
     <Compile Include="Assets/Scripts/Navigation/NavigationManager.cs" />
+    <Compile Include="Assets/Scripts/GameState.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
