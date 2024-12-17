@@ -1,9 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-
-
 
 public class BattleManager : MonoBehaviour {
     public enum BattleState {
@@ -27,6 +24,16 @@ public class BattleManager : MonoBehaviour {
     public Animator battleStateManager;
     public GameObject introPanel;
     Animator introPanelAnim;
+    private string selectedTargetName;
+    private EnemyController selectedTarget;
+    public GameObject selectionCircle;
+    private bool canSelectEnemy;
+    bool attacking = false;
+    public GameObject smackParticle;
+    public GameObject wackParticle;
+    public GameObject kickParticle;
+    public GameObject chopParticle;
+    private GameObject attackParticle;
 
 
     void Awake() {
@@ -61,8 +68,15 @@ public class BattleManager : MonoBehaviour {
                 introPanelAnim.SetTrigger("Intro");
                 break;
             case BattleState.Player_Move:
+                if (GetComponent<Attack>().attackSelected == true) {
+                    canSelectEnemy = true;
+                }
                 break;
             case BattleState.Player_Attack:
+                canSelectEnemy = false;
+                if (!attacking) {
+                    StartCoroutine(AttackTarget());
+                }
                 break;
             case BattleState.Change_Control:
                 break;
@@ -123,10 +137,65 @@ public class BattleManager : MonoBehaviour {
             yield return StartCoroutine(MoveCharacterToPoint(EnemySpawnPoints[i], newEnemy));
             newEnemy.transform.parent =
                 EnemySpawnPoints[i].transform;
+
+            var controller = newEnemy.GetComponent<EnemyController>();
+            controller.BattleManager = this;
+
+            var EnemyProfile = ScriptableObject.CreateInstance<Enemy>();
+            EnemyProfile.Class = EnemyClass.Dragon;
+            EnemyProfile.level = 1;
+            EnemyProfile.health = 10;
+            EnemyProfile.name = EnemyProfile.Class + " " + i.ToString();
+            controller.EnemyProfile = EnemyProfile;
         }
 
         battleStateManager.SetBool("BattleReady", true);
     }
 
 
+    public bool CanSelectEnemy {
+        get {
+            return canSelectEnemy;
+        }
+    }
+
+
+    public int EnemyCount {
+        get {
+            return enemyCount;
+        }
+    }
+
+    public void SelectEnemy(EnemyController enemy, string name) {
+        selectedTarget = enemy;
+        selectedTargetName = name;
+    }
+
+    IEnumerator AttackTarget() {
+        attacking = true;
+        var damageAmount = GetComponent<Attack>().hitAmount;
+        switch (damageAmount) {
+            case 5:
+                attackParticle = Instantiate(smackParticle);
+                break;
+            case 10:
+                attackParticle = Instantiate(wackParticle);
+                break;
+            case 15:
+                attackParticle = Instantiate(kickParticle);
+                break;
+            case 20:
+                attackParticle = Instantiate(chopParticle);
+                break;
+        }
+        if (attackParticle != null) {
+            attackParticle.transform.position = selectedTarget.transform.position;
+        }
+        selectedTarget.EnemyProfile.health -= damageAmount;
+        yield return new WaitForSeconds(1f);
+        attacking = false;
+        GetComponent<Attack>().hitAmount = 0;
+        battleStateManager.SetBool("PlayerReady", false);
+        Destroy(attackParticle);
+    }
 }
