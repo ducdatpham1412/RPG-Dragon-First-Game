@@ -9,6 +9,7 @@ TagManager:
   - Campsite
   - Construction
   - Overworld
+  - Shop
   layers:
   - Default
   - TransparentFX

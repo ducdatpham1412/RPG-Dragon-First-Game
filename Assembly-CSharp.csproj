@@ -86,9 +86,13 @@
     <Compile Include="Assets/Scripts/ConversationManager.cs" />
     <Compile Include="Assets/Scripts/EnemyController.cs" />
     <Compile Include="Assets/Scripts/Messaging/MessagingManager.cs" />
+    <Compile Include="Assets/Scripts/Shop/ShopSlot.cs" />
     <Compile Include="Assets/Scripts/MapPosition.cs" />
+    <Compile Include="Assets/Scripts/Classes/InventoryItem.cs" />
     <Compile Include="Assets/Scripts/FollowCamera.cs" />
     <Compile Include="Assets/Scripts/Messaging/MessagingClientReceiver.cs" />
+    <Compile Include="Assets/Scripts/PlayerIventoryDisplay.cs" />
+    <Compile Include="Assets/Scripts/Shop/ShopManager.cs" />
     <Compile Include="Assets/Scripts/Navigation/NavigationManager.cs" />
     <Compile Include="Assets/Scripts/GameState.cs" />
   </ItemGroup>
