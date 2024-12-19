@@ -15,9 +15,17 @@ public static class NavigationManager {
        RouteDescription = "The construction area", CanTravel = false}},
      {"Town", new Route {
        RouteDescription = "The main town", CanTravel = true}},
-     { "Campsite", new Route {
+     {
+        "Campsite", new Route {
        RouteDescription = "The campsite",
          CanTravel = false}},
+         {
+            "Shop",
+            new Route {
+                RouteDescription = "The town shop",
+                CanTravel = true,
+            }
+         }
        };
 
     public static string GetRouteInfo(string destination) {
