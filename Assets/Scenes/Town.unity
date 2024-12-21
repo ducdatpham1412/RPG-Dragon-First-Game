@@ -1334,10 +1334,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Mayor
-  Age: 0
-  Faction: 
+  Age: 10
+  Faction: Independent
   Occupation: 
-  Level: 0
+  Level: 1
 --- !u!1 &911681760
 GameObject:
   m_ObjectHideFlags: 0
