@@ -73,10 +73,12 @@
     <Compile Include="Assets/Scripts/Classes/ConversationComponent.cs" />
     <Compile Include="Assets/Scripts/ScriptingObjects.cs" />
     <Compile Include="Assets/Scripts/BattleManager.cs" />
+    <Compile Include="Assets/Scripts/MyEditorWindow.cs" />
     <Compile Include="Assets/Scripts/Attack.cs" />
     <Compile Include="Assets/Scripts/Classes/Enemy.cs" />
     <Compile Include="Assets/Scripts/Entity.cs" />
     <Compile Include="Assets/Scripts/Messaging/MessagingClientBroadcast.cs" />
+    <Compile Include="Assets/Scripts/CameraLookAt.cs" />
     <Compile Include="Assets/Scripts/Navigation/NavigationPrompt.cs" />
     <Compile Include="Assets/Scripts/Classes/ConversationEntry.cs" />
     <Compile Include="Assets/Scripts/Classes/EnemyClass.cs" />
@@ -88,6 +90,7 @@
     <Compile Include="Assets/Scripts/Messaging/MessagingManager.cs" />
     <Compile Include="Assets/Scripts/Shop/ShopSlot.cs" />
     <Compile Include="Assets/Scripts/MapPosition.cs" />
+    <Compile Include="Assets/Scripts/Classes/Properties/PopUpAttribute.cs" />
     <Compile Include="Assets/Scripts/Classes/InventoryItem.cs" />
     <Compile Include="Assets/Scripts/FollowCamera.cs" />
     <Compile Include="Assets/Scripts/Messaging/MessagingClientReceiver.cs" />

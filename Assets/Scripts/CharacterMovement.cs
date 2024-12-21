@@ -23,8 +23,7 @@ public class CharacterMomen : MonoBehaviour {
     void Update() {
         movePlayerHorizontal = Input.GetAxis("Horizontal");
         movePlayerVertical = Input.GetAxis("Vertical");
-        movement
-          = new Vector2(movePlayerHorizontal, movePlayerVertical);
+        movement = new Vector2(movePlayerHorizontal, movePlayerVertical);
         playerRigidBody2D.linearVelocity = movement * speed;
 
         if (movePlayerVertical == 0 && movePlayerHorizontal == 0) {

@@ -1,5 +1,5 @@
 using UnityEngine;
-using System.Collections;
+
 public class FollowCamera : MonoBehaviour {
     public float xOffset = 0f;
     public float yOffset = 0f;

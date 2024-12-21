@@ -65,10 +65,13 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.29f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/Editor/CameraTargetEditor.cs" />
     <Compile Include="Assets/Scripts/Editor/InventoryItemAssetCreator.cs" />
     <Compile Include="Assets/Scripts/Editor/CustomAssetUtility.cs" />
     <Compile Include="Assets/Scripts/Editor/PositionManager.cs" />
     <Compile Include="Assets/Scripts/Editor/ConversationAssetCreator.cs" />
+    <Compile Include="Assets/Scripts/Editor/MyMenu.cs" />
+    <Compile Include="Assets/Scripts/Editor/PropertyDrawers/PopUpCustomPropertyDrawer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
