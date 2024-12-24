@@ -28,6 +28,7 @@ public static class NavigationManager {
          }
        };
 
+
     public static string GetRouteInfo(string destination) {
         return RouteInformation.ContainsKey(destination) ? RouteInformation[destination].RouteDescription : null;
     }

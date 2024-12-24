@@ -2346,13 +2346,37 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventoryPopUp
       objectReference: {fileID: 0}
+    - target: {fileID: 1384327388455912511, guid: fed285b244c4747ce806731731bc8710, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2238995009199423638, guid: fed285b244c4747ce806731731bc8710, type: 3}
+      propertyPath: m_Alpha
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2402023947910602886, guid: fed285b244c4747ce806731731bc8710, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3248200657534447356, guid: fed285b244c4747ce806731731bc8710, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3980875783333444298, guid: fed285b244c4747ce806731731bc8710, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8453032744998847201, guid: fed285b244c4747ce806731731bc8710, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8455892205646720841, guid: fed285b244c4747ce806731731bc8710, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 120.9627
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 8455892205646720841, guid: fed285b244c4747ce806731731bc8710, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 30.5804
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
