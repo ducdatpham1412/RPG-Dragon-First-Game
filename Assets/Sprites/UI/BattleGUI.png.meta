@@ -111,6 +111,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -259,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BattleGUI_0: 6741694549809263427
+      BattleGUI_1: 657875973554106652
+      BattleGUI_2: 2218383500809880399
+      BattleGUI_3: 5861794821580324913
+      BattleGUI_4: 1178683834608788729
+      BattleGUI_5: -7397700735672587537
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

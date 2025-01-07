@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Shop.unity
     guid: c6ff71d44a49f4a218ce1cf9c52cb86a
+  - enabled: 1
+    path: Assets/StarterAssets/ThirdPersonController/Scenes/Playground.unity
+    guid: e9017d5f96b9f09489b4b37e1d6eb914
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
